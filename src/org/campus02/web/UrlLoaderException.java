@@ -6,4 +6,7 @@ public class UrlLoaderException extends Exception{
         super(message, cause);
     }
 
+    public UrlLoaderException(String message) {
+        super(message);
+    }
 }

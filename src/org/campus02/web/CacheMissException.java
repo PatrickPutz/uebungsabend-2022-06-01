@@ -6,4 +6,7 @@ public class CacheMissException extends Exception{
         super(message, cause);
     }
 
+    public CacheMissException(String message) {
+        super(message);
+    }
 }
