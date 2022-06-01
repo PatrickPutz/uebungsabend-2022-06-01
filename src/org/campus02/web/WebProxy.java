@@ -30,7 +30,7 @@ public class WebProxy {
         WebPage webPage;
         try {
             webPage = cache.readFromCache(url);
-            numCacheMisses++;
+            numCacheHits++;
         } catch (CacheMissException e) {
             numCacheMisses++;
             webPage = UrlLoader.loadWebPage(url);
