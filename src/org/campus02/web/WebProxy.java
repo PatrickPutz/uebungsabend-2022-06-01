@@ -8,11 +8,11 @@ import java.util.Map;
 
 public class WebProxy {
 
-    public static void main(String[] args) {
-        WebProxy webProxy = new WebProxy();
-        webProxy.cache.warmUp(".\\data\\demo_urls.txt");
-        webProxy.writePageCacheToFile(".\\data\\cached_urls.txt");
-    }
+//    public static void main(String[] args) {
+//        WebProxy webProxy = new WebProxy();
+//        webProxy.cache.warmUp(".\\data\\demo_urls.txt");
+//        webProxy.writePageCacheToFile(".\\data\\cached_urls.txt");
+//    }
 
     private PageCache cache;
     private int numCacheHits = 0;
